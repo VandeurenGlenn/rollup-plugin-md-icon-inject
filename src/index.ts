@@ -1,5 +1,5 @@
 import materialSymbols from 'rollup-plugin-material-symbols';
-import type {MaterialSymbolsOptions} from 'rollup-plugin-material-symbols/types.js';
+import type {MaterialSymbolsOptions} from 'rollup-plugin-material-symbols/lib/types.js';
 
 export const mdIconInline = (
   options: Omit<MaterialSymbolsOptions, 'elements'>,
