@@ -1,0 +1,21 @@
+{
+  "name": "rollup-plugin-md-icon-inline",
+  "version": "1.0.0",
+  "description": "Injects svg into md-icon's innerHTML (this extends the material-symbols plugin)",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rollup-plugin-material-symbols": "^2.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./plugin.js"
+    }
+  },
+  "devDependencies": {}
+}
