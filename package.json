@@ -19,7 +19,8 @@
   "devDependencies": {
     "husky": "^8.0.3",
     "prettier": "^3.0.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "lint-staged": "^13.2.3"
   },
   "lint-staged": {
     "**/*.{cjs,html,js,json,md,ts}": "prettier --single-quote --no-bracket-spacing --write"
