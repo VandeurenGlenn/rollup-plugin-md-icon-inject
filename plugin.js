@@ -1,3 +1,5 @@
 import materialSymbols from 'rollup-plugin-material-symbols'
 
-export default (options) => materialSymbols({elements: ['md-icon'], ...options})
+export const mdIconInject = (options) => materialSymbols({elements: ['md-icon'], ...options})
+
+export default mdIconInject
