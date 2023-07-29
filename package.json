@@ -14,7 +14,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "rollup-plugin-material-symbols": "^2.0.0"
+    "rollup-plugin-material-symbols": "^2.0.8"
   },
   "devDependencies": {
     "husky": "^8.0.3",
@@ -23,5 +23,8 @@
   },
   "lint-staged": {
     "**/*.{cjs,html,js,json,md,ts}": "prettier --single-quote --no-bracket-spacing --write"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }
