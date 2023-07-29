@@ -1,21 +1,27 @@
 {
-	"name": "rollup-plugin-md-icon-inline",
-	"version": "1.1.0",
-	"description": "inline <md-icon> at build time",
-	"type": "module",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.js",
-	"scripts": {
-		"build": "tsc --pretty"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "MIT",
-	"dependencies": {
-		"rollup-plugin-material-symbols": "^2.0.0"
-	},
-	"devDependencies": {
-		"typescript": "^5.1.6"
-	}
+  "name": "rollup-plugin-md-icon-inline",
+  "version": "1.1.0",
+  "description": "inline <md-icon> at build time",
+  "type": "module",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --pretty",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rollup-plugin-material-symbols": "^2.0.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "lint-staged": {
+    "**/*.{cjs,html,js,json,md,ts}": "prettier --single-quote --no-bracket-spacing --write"
+  }
 }
