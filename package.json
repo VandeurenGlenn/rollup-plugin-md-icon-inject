@@ -10,6 +10,14 @@
     "build": "tsc --pretty",
     "prepare": "husky install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/rollup-plugin-md-icon-inline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/rollup-plugin-md-icon-inline/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/rollup-plugin-md-icon-inline#readme",
   "keywords": [
     "rollup",
     "plugin",
@@ -35,5 +43,8 @@
   "files": [
     "lib",
     "LICENSE"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  }
 }
