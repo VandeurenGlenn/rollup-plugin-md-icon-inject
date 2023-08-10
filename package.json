@@ -21,13 +21,13 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "rollup-plugin-material-symbols": "^2.0.8"
+    "rollup-plugin-material-symbols": "^2.1.1"
   },
   "devDependencies": {
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
-    "typescript": "^5.1.6",
-    "lint-staged": "^13.2.3"
+    "typescript": "^5.1.6"
   },
   "lint-staged": {
     "**/*.{cjs,html,js,json,md,ts}": "prettier --single-quote --no-bracket-spacing --write"
