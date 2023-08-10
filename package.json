@@ -33,6 +33,8 @@
     "**/*.{cjs,html,js,json,md,ts}": "prettier --single-quote --no-bracket-spacing --write"
   },
   "files": [
-    "lib"
+    "lib",
+    "logo.png",
+    "LICENSE"
   ]
 }
