@@ -22,9 +22,9 @@ plugins: [materialSymbols()];
 You can also specify options to get rid of the defaults :
 
 ```javascript
-import {materialSymbols} from 'rollup-plugin-md-icon-inline';
+import {mdIconInline} from 'rollup-plugin-md-icon-inline';
 
-materialSymbols({
+mdIconInline({
 	
 });
 ```
