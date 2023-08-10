@@ -11,10 +11,10 @@ So your final application doesn't have to rely on the material symbols font reso
 - Works offline in a PWA.
 
 ```javascript
-import {materialSymbols} from 'rollup-plugin-md-icon-inline';
+import {mdIconInline} from 'rollup-plugin-md-icon-inline';
 
 // in your rollup config object
-plugins: [materialSymbols()];
+plugins: [mdIconInline()];
 ```
 
 ### Options
