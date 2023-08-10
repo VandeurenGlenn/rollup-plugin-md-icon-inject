@@ -10,7 +10,14 @@
     "build": "tsc --pretty",
     "prepare": "husky install"
   },
-  "keywords": [],
+  "keywords": [
+    "rollup",
+    "plugin",
+    "md",
+    "icon",
+    "material",
+    "inline"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
