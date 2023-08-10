@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./logo.png" width="300">
+<img src="https://raw.githubusercontent.com/VandeurenGlenn/rollup-plugin-md-icon-inline/main/logo.png" width="300">
 </div>
 
 #### Rollup plugin that inlines `<md-icon>` at build time.
@@ -24,7 +24,5 @@ You can also specify options to get rid of the defaults :
 ```javascript
 import {mdIconInline} from 'rollup-plugin-md-icon-inline';
 
-mdIconInline({
-	
-});
+mdIconInline({});
 ```
